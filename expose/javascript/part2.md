@@ -56,9 +56,9 @@ Error. i is declared as let and cannot be accessed outside of the for loop.
 12. 
 ```
     A) student.name
-    B) student['Grad YR']
+    B) student['Grad Year']
     C) student.greeting()
-    D) student['Favorite TA'].name
+    D) student['Favorite Teacher'].name
     E) student.courseLoad[0]
 ```
 
@@ -77,7 +77,7 @@ Error. i is declared as let and cannot be accessed outside of the for loop.
 14. 
 ```
     A) true     '2' is considered as an integer 2
-    B) false    '2' -> 2, '12' -> 12
+    B) false    String comparison compares the first letter. 2 > 1 so false.
     C) true     '2' -> 2
     D) false    2 is not strictly equal to '2', they are different types
     E) false    true == 1
