@@ -32,29 +32,29 @@ Error, same thing above, the output variable is declared as let.
 150. Because the variable is not declared in the for loop, it can be accessed within the same block
 ```
 
-9. 
+8. 
 ```
 [50,100,150]. discounted is declared and returned within the same block.
 ```
 
 
-10. 
+9. 
 ```
 Error. i is declared as let and cannot be accessed outside of the for loop.
 ```
 
-11. 
+10. 
 ```
 3. The value of "length" is constant and is equal to the length of prices array.
 ```
 
-13. 
+11. 
 ```
 [50,100,150]. Although the variable "discounted" was declared as const, pushing values are allowed
 ```
 
-14. 
-    ```
+12. 
+```
     A) student.name
     B) student['Grad YR']
     C) student.greeting()
@@ -62,7 +62,7 @@ Error. i is declared as let and cannot be accessed outside of the for loop.
     E) student.courseLoad[0]
 ```
 
-15. 
+13. 
 ```
     A) '32'.            2 becomes a string added after '3'
     B) 1.               '3' becomes an integer 3 
@@ -74,7 +74,7 @@ Error. i is declared as let and cannot be accessed outside of the for loop.
     H) NaN              undefined cannot be considered as an numerical or integer value.
 ```
 
-16. 
+14. 
 ```
     A) true     '2' is considered as an integer 2
     B) false    '2' -> 2, '12' -> 12
@@ -84,12 +84,12 @@ Error. i is declared as let and cannot be accessed outside of the for loop.
     F) true     Boolean(2) is the value true, and it is strictly equal to true
 ```
 
-17. 
+15. 
 
 == does type conversion before comparing while === does not.
 
 
-18. 
+17.    
 
 [2,4,6]. After the last line called modifyArray with parameters, in modifyArray function it creates a new output array that goes through the given array. Within the for loop, the value is modified in doSomething function (*2). Thus, the final array would have twice value each compared with the given array.
 
